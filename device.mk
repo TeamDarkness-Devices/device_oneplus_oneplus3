@@ -190,6 +190,12 @@ PRODUCT_PACKAGES += \
     fingerprintd \
     OneplusPocketMode
 
+# OTA Updates
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.ota.romname=AOSP-OnePlus3_3T-7.1 \
+    ro.ota.version=$(shell date -u +%Y%m%d) \
+    ro.ota.manifest=https://romhut.com/roms/aosp-oneplus3_3t-7-1/ota.xml
+
 # For android_filesystem_config.h
 PRODUCT_PACKAGES += \
     fs_config_files
