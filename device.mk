@@ -157,7 +157,7 @@ PRODUCT_COPY_FILES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    Snap \
+    SnapdragonCamera \
     libcamera_shim
 
 # Connectivity Engine support (CNE)
@@ -183,18 +183,12 @@ PRODUCT_PACKAGES += \
 
 # Doze mode
 PRODUCT_PACKAGES += \
-    OneplusDoze
+    OneplusThreeDoze
 
 # Fingerprint sensor
 PRODUCT_PACKAGES += \
     fingerprintd \
     OneplusPocketMode
-
-# OTA Updates
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.ota.romname=AOSP-OnePlus3_3T-7.1 \
-    ro.ota.version=$(shell date -u +%Y%m%d) \
-    ro.ota.manifest=https://romhut.com/roms/aosp-oneplus3_3t-7-1/ota.xml
 
 # For android_filesystem_config.h
 PRODUCT_PACKAGES += \
@@ -307,6 +301,10 @@ PRODUCT_PACKAGES += \
     librmnetctl \
     libxml2 \
     libprotobuf-cpp-full
+
+#ROOT
+PRODUCT_PACKAGES += \
+    WITH_ROOT := true
 
 # Sensors
 PRODUCT_PACKAGES += \

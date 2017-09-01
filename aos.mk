@@ -19,13 +19,22 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from oneplus3 device
 $(call inherit-product, device/oneplus/oneplus3/device.mk)
 
-# Inherit some common JDC stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+# Inherit some common ATMOIC-OS stuff.
+$(call inherit-product, vendor/aos/config/common_full_phone.mk)
+$(call inherit-product, vendor/aos/config/common.mk)
+$(call inherit-product, vendor/aos/config/telephony.mk)
+$(call inherit-product, vendor/aos/config/version.mk)
 
-PRODUCT_NAME := aosp_oneplus3
+
+# Boot animation
+TARGET_SCREEN_HEIGHT := 1920
+TARGET_SCREEN_WIDTH := 1080
+
+PRODUCT_NAME := aos_oneplus3
 PRODUCT_DEVICE := oneplus3
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
+PRODUCT_MODEL := OnePlus3
 
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
