@@ -444,7 +444,9 @@
             sampleRate="48000"
             channels="2" />
     </EncoderProfile>
+         
 
+         <!--FIX FOR GOOGLE CAMERA SLOW MOTION -->
 <!-- CAMCORDER_QUALITY_HIGH_SPEED_HIGH/720P : 720p@120fps; 27.0 Mbps -->
         <EncoderProfile quality="highspeedhigh" fileFormat="mp4" duration="30">
             <Video codec="h264"
@@ -485,6 +487,7 @@
                    sampleRate="48000"
                    channels="2" />
         </EncoderProfile>
+         
 
         <ImageEncoding quality="95" />
         <ImageEncoding quality="80" />
