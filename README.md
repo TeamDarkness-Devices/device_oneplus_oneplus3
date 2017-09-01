@@ -1,8 +1,4 @@
-Copyright (C) 2016 - The CyanogenMod Project
-
-Copyright (C) 2017 - The LineageOS Project
-
-Unified device configuration for OnePlus 3/3T
+Unified Device Tree (Configuration) for OnePlus 3/3T
 ==============
 
 The OnePlus 3/3T (codenamed _"oneplus3"_) are high-end smartphones from OnePlus.
@@ -11,7 +7,7 @@ OnePlus 3 was announced in February 2016. Release date was June 2016.
 
 OnePlus 3T was announced in November 2016. Release date was November 2016.
 
-## Device specifications
+## DEVICE SPECSHEET
 
 | Device       | OnePlus 3                                       | OnePlus 3T                                      |
 | -----------: | :---------------------------------------------- | :---------------------------------------------- |
@@ -27,7 +23,6 @@ OnePlus 3T was announced in November 2016. Release date was November 2016.
 | Rear camera  | 16 MPx, f/2.0, PDAF autofocus, LED flash                  | 16 MPx, f/2.0, PDAF autofocus, LED flash                  |
 | Front camera | 8 MPx, f/2.0                                    | 16 MPx, f/2.0                                   |
 
-## Device picture
+## DEVICE PICTURES
 
 ![OnePlus 3](https://content.oneplus.net/skin/frontend/oneplus2015/default/images/oneplus3/oxygenos/parameter.png "OnePlus 3 in grey")
-# device_oneplus_oneplus3
