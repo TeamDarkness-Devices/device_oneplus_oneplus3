@@ -183,7 +183,7 @@ PRODUCT_PACKAGES += \
 
 # Doze mode
 PRODUCT_PACKAGES += \
-    OneplusThreeDoze
+    OneplusDoze
 
 # Fingerprint sensor
 PRODUCT_PACKAGES += \
@@ -303,8 +303,7 @@ PRODUCT_PACKAGES += \
     libprotobuf-cpp-full
 
 #ROOT
-PRODUCT_PACKAGES += \
-    WITH_ROOT := true
+WITH_ROOT := true
 
 # Sensors
 PRODUCT_PACKAGES += \
