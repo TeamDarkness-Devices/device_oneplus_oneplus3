@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.cyanogenmod.pocketmode.util;
+package org.cyanogenmod.pocketmode;
 
 import android.util.Log;
 
@@ -91,16 +91,6 @@ public final class FileUtils {
         }
 
         return true;
-    }
-
-    /**
-     * Checks whether the given file exists
-     *
-     * @return true if exists, false if not
-     */
-    public static boolean fileExists(String fileName) {
-        final File file = new File(fileName);
-        return file.exists();
     }
 
     /**
